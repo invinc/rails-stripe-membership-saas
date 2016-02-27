@@ -20,6 +20,7 @@ gem 'gibbon'
 gem 'high_voltage'
 gem 'payola-payments'
 gem 'sucker_punch'
+gem 'figaro'
 group :development do
   gem 'better_errors'
   gem 'quiet_assets'
