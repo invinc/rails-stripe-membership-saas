@@ -14,8 +14,23 @@
       <%= render 'layouts/navigation' %>
     </header>
     <main role="main">
-       <%= render 'layouts/messages' %>
-       <%= yield %>
+      <%= render 'layouts/messages' %>
+      <%= render 'layouts/sidebar' %>
+      <% if user_signed_in? %>
+        <div id="wrapper">
+          <div id="page-content-wrapper">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-12">
+                  <%= yield %>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <% else %>
+        <%= yield %>
+      <% end %>
     </main>
   </body>
 </html>

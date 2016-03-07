@@ -22,6 +22,7 @@ gem 'payola-payments'
 gem 'sucker_punch'
 gem 'figaro'
 group :development do
+  gem 'pry-rails'
   gem 'better_errors'
   gem 'quiet_assets'
   gem 'rails_layout'

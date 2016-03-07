@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150408023212) do
+ActiveRecord::Schema.define(version: 20150408022948) do
 
   create_table "payola_affiliates", force: :cascade do |t|
     t.string   "code"
@@ -133,6 +133,7 @@ ActiveRecord::Schema.define(version: 20150408023212) do
     t.string   "last_sign_in_ip"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "name"
     t.integer  "role"
     t.integer  "plan_id"
   end

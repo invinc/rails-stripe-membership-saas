@@ -3,7 +3,7 @@
     <h3>Admin</h3>
     <p><%= link_to 'User count:', users_path %> <%= User.count %></p>
   <% else %>
-    <%= render 'dashboard' %>
+    <h1> Dashboard Page </h1>
   <% end %>
 <% else %>
   <div id="welcome" class="span7">
@@ -11,29 +11,30 @@
     <h3>Please choose your plan to build a successful subscription.</h3>
   </div>
   <div class="row col-sm-12 plans">
-    <div class="col-sm-2 well">
-      <div class="plan"><h2>Silver</h2></div>
-      <ul class="list-unstyled">
+    <div class="col-sm-3 well">
+      <div class="plan"><h2>6 meals per week</h2></div>
+<!--       <ul class="list-unstyled">
         <li>6 meals per week</li>
-      </ul>
-      <h3>$59.65/week</h3>
-      <%= link_to 'Subscribe', new_user_registration_path(plan: 'silver'), :class => 'btn btn-primary' %>
+      </ul> -->
+      <h3>$59.65 <br>per week</h3>
+      <%= link_to 'Subscribe', new_user_registration_path(plan: 'six_meal'), :class => 'btn btn-primary' %>
     </div>
-    <div class="col-sm-2 well featured">
-      <div class="plan featured-plan"><h2>Gold</h2></div>
-      <ul class="list-unstyled">
+    <div class="col-sm-3 well featured">
+      <div class="plan featured-plan"><h2>12 meals per week</h2></div>
+<!--       <ul class="list-unstyled">
         <li>12 meals per week</li>
       </ul>
-      <h3>$119.40/week</h3>
-      <%= link_to 'Subscribe', new_user_registration_path(plan: 'gold'), :class => 'btn btn-primary' %>
+ -->      
+      <h3>$119.40<br>per week</h3>
+      <%= link_to 'Subscribe', new_user_registration_path(plan: 'twelve_meal'), :class => 'btn btn-primary' %>
     </div>
-    <div class="col-sm-2 well">
-      <div class="plan"><h2>Platinum</h2></div>
-      <ul class="list-unstyled">
+    <div class="col-sm-3 well">
+      <div class="plan"><h2>18 meals per week</h2></div>
+     <!--  <ul class="list-unstyled">
         <li>18 meals per week</li>
-      </ul>
-      <h3>$130.40/week</h3>
-      <%= link_to 'Subscribe', new_user_registration_path(plan: 'platinum'), :class => 'btn btn-primary' %>
+      </ul> -->
+      <h3>$179.10<br>per week</h3>
+      <%= link_to 'Subscribe', new_user_registration_path(plan: 'eighteen_meal'), :class => 'btn btn-primary' %>
     </div>
   </div>
 <% end %>
