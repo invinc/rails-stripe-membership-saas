@@ -2,6 +2,10 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  background-color:#f2f4f8;
+}
+
 // make all images responsive by default
 img {
   @extend .img-responsive;
@@ -12,6 +16,13 @@ img {
   font-size: inherit;
   }
 
+.left-menu{
+  height: 100%;
+  display: table;
+  table-layout: fixed;
+  border-spacing: 0;
+  width: 100%;
+}
 // THESE ARE EXAMPLES YOU CAN MODIFY
 // create your own classes
 // to make views framework-neutral
@@ -53,10 +64,19 @@ section {
   max-width: 400px;
   margin: 0 auto;
 }
+
+.subform {
+  @extend .well;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: white;
+  border: 1px solid #00C2FF;
+}
 .authform form {
   @extend .well;
   @extend .well-lg;
   padding-bottom: 40px;
+  background-color: white;
 }
 .authform .right {
   float: right !important;
@@ -79,4 +99,16 @@ section {
   @extend .btn;
   @extend .btn-primary;
   @extend .btn-xs;
+}
+
+#welcome {
+  text-align: center;
+  color: blue;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.content-container {
+  @extend .container-fluid;
+  margin-left: 250px;
 }

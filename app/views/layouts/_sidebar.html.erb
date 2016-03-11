@@ -1,13 +1,15 @@
 <% if user_signed_in? %>
-    <!-- Sidebar -->
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li><%= link_to 'Dashboard','#' %></li>
-            <li><%= link_to 'Manage Subscription', '#' %></li>
-            <li><%= link_to 'Referral and Promo', '#' %></li>
-            <li><%= link_to 'Delivery', '#' %></li>
-            <li><%= link_to 'Settings', '#' %></li>
-            <li><%= link_to 'Sign out', destroy_user_session_path, :method=>'delete'%></li>
-        </ul>
-    </div>
+	<div id='sidebar-wrapper'>
+    <ul class="sidebar-nav">
+        <li><%= link_to 'Dashboard', dashboard_path, :method=>'get' %></li>
+        <li><%= link_to 'Manage Subscription', subscription_path %></li>
+        <li><%= link_to 'Referral and Promo', promo_path %></li>
+        <li><%= link_to 'Delivery', delivery_path %></li>
+        <li><%= link_to 'Settings', settings_path %></li>
+        <li><%= link_to 'Sign out', destroy_user_session_path, :method=>'delete'%></li>
+    </ul>
+  </div>
+  <script>
+    $('.sidebar-nav li').eq('<%=@menu_id%>').addClass('selected');
+  </script>
 <% end %>

@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= content_for?(:title) ? yield(:title) : "Rails Stripe Membership" %></title>
-    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Rails Stripe Membership" %>">
+    <title><%= content_for?(:title) ? yield(:title) : "Chowdy Membership" %></title>
+    <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Chowdy Membership" %>">
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
     <%= csrf_meta_tags %>
@@ -14,23 +14,20 @@
       <%= render 'layouts/navigation' %>
     </header>
     <main role="main">
-      <%= render 'layouts/messages' %>
-      <%= render 'layouts/sidebar' %>
-      <% if user_signed_in? %>
-        <div id="wrapper">
-          <div id="page-content-wrapper">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-12">
-                  <%= yield %>
-                </div>
-              </div>
-            </div>
-          </div>
+    <% if user_signed_in? %>
+      <div id='wrapper'>
+    <% else %>
+      <div class='container-fluid'>
+    <% end %>
+        <!-- Sidebar -->
+        <%= render 'layouts/sidebar' %>
+        
+        <!-- Page content -->
+        <div id="page-content-wrapper">
+          <%= render 'layouts/messages' %>
+          <%= yield %>
         </div>
-      <% else %>
-        <%= yield %>
-      <% end %>
+      </div>
     </main>
   </body>
 </html>

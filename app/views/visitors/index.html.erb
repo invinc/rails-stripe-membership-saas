@@ -10,29 +10,19 @@
     <h1>Chowdy Subscription Plan Site</h1>
     <h3>Please choose your plan to build a successful subscription.</h3>
   </div>
-  <div class="row col-sm-12 plans">
-    <div class="col-sm-3 well">
+  <div class="row col-sm-offset-2 col-sm-10 plans">
+    <div class="col-sm-3 subform">
       <div class="plan"><h2>6 meals per week</h2></div>
-<!--       <ul class="list-unstyled">
-        <li>6 meals per week</li>
-      </ul> -->
       <h3>$59.65 <br>per week</h3>
       <%= link_to 'Subscribe', new_user_registration_path(plan: 'six_meal'), :class => 'btn btn-primary' %>
     </div>
-    <div class="col-sm-3 well featured">
+    <div class="col-sm-3 subform featured">
       <div class="plan featured-plan"><h2>12 meals per week</h2></div>
-<!--       <ul class="list-unstyled">
-        <li>12 meals per week</li>
-      </ul>
- -->      
       <h3>$119.40<br>per week</h3>
       <%= link_to 'Subscribe', new_user_registration_path(plan: 'twelve_meal'), :class => 'btn btn-primary' %>
     </div>
-    <div class="col-sm-3 well">
+    <div class="col-sm-3 subform">
       <div class="plan"><h2>18 meals per week</h2></div>
-     <!--  <ul class="list-unstyled">
-        <li>18 meals per week</li>
-      </ul> -->
       <h3>$179.10<br>per week</h3>
       <%= link_to 'Subscribe', new_user_registration_path(plan: 'eighteen_meal'), :class => 'btn btn-primary' %>
     </div>
