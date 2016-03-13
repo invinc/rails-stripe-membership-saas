@@ -1,0 +1,1691 @@
+
+<!DOCTYPE>
+<html class="app">
+<head>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"b3bc3c48ba","applicationID":"6452347","transactionName":"dA1bQUJWDlQGFx9ER1IQRhpASw1eCglV","queueTime":0,"applicationTime":1953,"ttGuid":"","agentToken":null,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(e,t){function n(){}function r(e){function t(e){return e&&e instanceof n?e:e?a(e,i,o):o()}function s(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,f=0;u>f;f++)a[f].apply(i,r);var s=c[w[n]];return s&&s.push([h,n,r,i]),i}function p(e,t){g[e]=l(e).concat(t)}function l(e){return g[e]||[]}function d(e){return f[e]=f[e]||r(s)}function v(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in c||(c[t]=[])})}var g={},w={},h={on:p,emit:s,get:d,listeners:l,context:t,buffer:v};return h}function o(){return new n}var i="nr@context",a=e("gos"),u=e(1),c={},f={},s=t.exports=r();s.backlog=c},{1:12,gos:"7eSDFh"}],ee:[function(e,t){t.exports=e("QJf3ax")},{}],3:[function(e,t){function n(e,t){return function(){r(e,[(new Date).getTime()].concat(i(arguments)),null,t)}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],u=["addPageAction"],c="api-";o(a,function(e,t){newrelic[t]=n(c+t,"api")}),o(u,function(e,t){newrelic[t]=n(c+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),r("err",[e,(new Date).getTime()])}},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,t){t.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,t){function n(e,t,n){if(r.call(e,t))return e[t];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[t]=o,o}var r=Object.prototype.hasOwnProperty;t.exports=n},{}],handle:[function(e,t){t.exports=e("D5DuLP")},{}],D5DuLP:[function(e,t){function n(e,t,n,o){r.buffer([e],o),r.emit(e,t,n)}var r=e("ee").get("handle");t.exports=n,n.ee=r},{ee:"QJf3ax"}],XL7HBI:[function(e,t){function n(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");t.exports=n},{gos:"7eSDFh"}],id:[function(e,t){t.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,t){function n(){if(!v++){var e=d.info=NREUM.info,t=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){u(p,function(t,n){e[t]||(e[t]=n)});var n="https"===s.split(":")[0]||e.sslForHttp;d.proto=n?"https://":"http://",a("mark",["onload",i()],null,"api");var r=f.createElement("script");r.src=d.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()],null,"api")}function i(){return(new Date).getTime()}var a=e("handle"),u=e(1),c=window,f=c.document;NREUM.o={ST:setTimeout,XHR:c.XMLHttpRequest,REQ:c.Request,EV:c.Event,PR:c.Promise,MO:c.MutationObserver},e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-885.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),d=t.exports={offset:i(),origin:s,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()],null,"api");var v=0},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,t){t.exports=e("G9z0Bl")},{}],12:[function(e,t){function n(e,t){var n=[],o="",i=0;for(o in e)r.call(e,o)&&(n[i]=t(o,e[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;t.exports=n},{}],13:[function(e,t){function n(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=n},{}]},{},["G9z0Bl"]);</script>
+  <title>Chowdy</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon-d19882bd2919aa13771b1266d2644b3f.ico" />
+  <link rel="stylesheet" media="all" href="/assets/application-434c5f98bab2d72b215eebc4e1ab2084.css" data-turbolinks-track="true" />
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=true&amp;libraries=geometry"></script>
+  <script src="/assets/application-a7776f99da328678a83ac505b92a0346.js" data-turbolinks-track="true"></script>
+  <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script> -->
+  <script src="//cdn.datatables.net/1.10.7/js/jquery.dataTables.min.js"></script>
+  <script src="https://checkout.stripe.com/v2/checkout.js"></script>
+  <link rel="stylesheet" media="all" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" data-turbolinks-track="true" />
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="FU1mQQMfGbsx/RPcMlSTlpKFJ7l0dOwk4vv0iRQnpR8z9FFRACuhDsIkT50dewMT6PZhYSkb2z/mHKNi0UjwSw==" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<body style="background-color:#f2f4f8">
+
+<div id="fakeLoader"></div>
+  
+<script>
+$(function(){
+    // remove menu rating cards that have alreay been rated by this customer
+    (function() {
+          var rated_items = [];
+          $('.menu_card').filter(function(){
+            return rated_items.indexOf($(this).data('menu-id')) > -1
+          }).remove();
+        })();
+
+    // create hub map
+    function create_hub_map () {
+
+      map = new GMaps({
+        div: '#hub_map',
+        lat: 43.7,
+        lng: 79.4
+      });
+
+      var addresses_to_display = [{"location":"346 Front St. W ","hours":"Mon-Sat 7:00am-7:00pm (9:00am open on Sat)"}]
+
+      var latlngbounds = new google.maps.LatLngBounds();
+
+      addresses_to_display.forEach(function(a){
+        GMaps.geocode({
+          address: a.location+', Toronto',
+          callback: function(results, status) {
+            if (status == 'OK') {
+              var latlng = results[0].geometry.location;
+              latlngbounds.extend(latlng);
+              map.setCenter(latlng.lat(), latlng.lng());
+              var marker = map.addMarker({
+                          lat: latlng.lat(),
+                          lng: latlng.lng()
+                        });
+              var infowindow = new google.maps.InfoWindow({
+                                    content: '<p>Hub hours: '+a.hours
+                                });
+              infowindow.open(map,marker);
+            }
+          }
+        });
+      });
+
+      var isDraggable = $(document).width() > 800 ? true : false; // If 
+
+      map.setOptions({
+        draggable: isDraggable,
+        scrollwheel: false
+      });
+      map.setZoom(13);
+      map.panToBounds(latlngbounds);
+
+    };
+
+    create_hub_map();
+
+    //URL segment
+
+      //retrieve
+      var hash = (window.location.hash == "" || window.location.hash == "#_=_") ? "#dashboard" : window.location.hash;
+      $('#main-nav a[href='+hash+']').tab("show");
+      $(".nav-main").find(".highlight").removeClass("highlight");
+      $('#main-nav li a[href='+hash+']').parent().addClass("highlight");
+
+      //navigation amongst the tabs
+      $('#main-nav a, .url_seg').off("click").on("click",function(){
+        window.location.hash = $(this).attr("href");
+        $(".nav-main").find(".highlight").removeClass("highlight");
+        $(".nav-main").find('a[href="'+$(this).attr("href")+'"]').parent().addClass("highlight");
+      });
+
+    //check for unpaid invoices before allowing to resume
+    var unpaid_invoices = 0
+    if (unpaid_invoices > 0) {
+      $('#resume_subscription_button').addClass("disabled");
+      $('#subscription_change_alert').removeClass("hidden");
+    };
+
+    // general populate modal
+
+    $('.pull_modal').off('click').on('click',function(){
+      event.preventDefault();
+      $.ajax({
+        url: $(this).attr('href'),
+        type: 'GET',
+        dataType: 'HTML'
+      }).done(function(data){
+          $('#generalModal .modal-content').html(data);
+          $('#generalModal').modal({show:true});
+          $("#generalModal").animate({
+              scrollTop: 0
+          }, 500);
+      });
+    });
+
+    // star rating
+
+    $('.star_rating').raty({
+      click: function() {
+        $(this).parent().children('.submit_meal_rating').html("Submit rating");
+        $(this).parent().children('.submit_meal_rating').removeClass('disabled');
+      }
+    });
+
+    // submit menu selection
+
+    $('#submit_meal_selection').off('click').on('click',function(){
+
+      data = [
+        {
+          production_day:"2016-03-20",
+          beef:$('#monday_beef_1_spinner').val(),
+          pork:$('#monday_pork_1_spinner').val(),
+          poultry:$('#monday_poultry_1_spinner').val(),
+          green_1:$('#monday_green_1_1_spinner').val(),
+          green_2:$('#monday_green_2_1_spinner').val()},
+        {
+          production_day:"2016-03-23",
+          beef:$('#thursday_beef_1_spinner').val(),
+          pork:$('#thursday_pork_1_spinner').val(),
+          poultry:$('#thursday_poultry_1_spinner').val(),
+          green_1:$('#thursday_green_1_1_spinner').val(),
+          green_2:$('#thursday_green_2_1_spinner').val()}
+        ];
+
+  
+
+      $.ajax({
+        url: '/meal_selection/update',
+        type: 'POST',
+        dataType: 'JSON',
+        data: {meal_selection: JSON.stringify(data)}
+      }).done(function(data){
+        if(data.status == "success") {
+          $('#submit_meal_selection').html("Selection Saved");
+          $('#submit_meal_selection').addClass('disabled');
+          $('#unsaved_warning_meal_selection').addClass('hidden');
+        } else {
+          $('#errorModal .modal-body').html("Meal selection could not be saved - " + data.message);
+          $('#errorModal').modal({show:true});
+        }
+      })      
+    });
+
+    // submit rating
+
+    $('.submit_meal_rating').off('click').on('click',function(){
+      var comment = $(this).parent().parent().find('textarea').val();
+      var rating = $(this).parent().parent().find('.star_rating').raty('score');
+      var menu_id = $(this).parent().parent().find('#menu_id').val();
+
+      _this = $(this);
+
+      $.ajax({
+        url: '/customers/submit_meal_rating',
+        type: 'POST',
+        dataType: 'JSON',
+        data: {comment:comment, rating:rating, menu_id:menu_id}
+      }).done(function(data){
+        if (data.result) {
+          var elm = _this.closest('.menu_card');
+          if (elm.hasClass('fade_left')) {
+            elm.addClass('fadeOutLeft');  
+          } else if (elm.hasClass('fade_right')) {
+            elm.addClass('fadeOutRight');  
+          }
+          elm.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+            $(this).remove();
+        });
+        } else {
+          alert("Rating could not be saved; "+data.message)
+        }
+      })
+
+    });
+
+    // check delivery 
+    $('#delivery_request_form input').off("change").on("change", function(){
+      $("#delivery_change_warning").removeClass("hidden");
+    });
+
+    $('#delivery_request_form input').off("focusout").on("focusout",function(e){
+        GMaps.geocode({
+          address: $('#delivery_request_form #delivery_address').val()+", Toronto",
+          callback: function(results, status) {
+            if (status == 'OK') {
+              if (results.length > 1) {
+                var result_array = results.map(function(result){
+                    return result.formatted_address+"<br>"
+                  });
+              $('#address_match_warning strong').html("We found multiple matching locations. <i>Did you mean:</i><br>"+result_array.join(" "));
+              $('#address_match_warning').removeClass("hidden");
+              $("#delivery_request_form input:submit").addClass("disabled");
+              } else {
+                if (results[0].geometry.location_type == "APPROXIMATE") {
+                  $('#address_match_warning strong').html("We could not locate your address. Please be more specific.");
+                  $('#address_match_warning').removeClass("hidden");
+                  $("#delivery_request_form input:submit").addClass("disabled");
+                } else {
+                var latlng = results[0].geometry.location;
+                  if (contains_location(latlng)=="downtown") {
+                    $('#address_match_warning strong').html("Note that the default delivery time is every <span class='text-danger-lt'>Monday and Thursday between 11am and 1pm</span> unless otherwise requested below.<br><br>If you live in a residence with a front desk, please make sure that your concierge can accept the delivery on your behalf, or will let our courier leave the food by your door (note that since you are in our downtown delivery zone, your meals will be in regular bags, not thermal-insulated bags. So if you cannot receive your meals during our default delivery time, please indicate below a better time for delivery) <br><br>If our courier cannot drop off the meals, they will return them to the hub, where you are welcome to pick up the meals yourself");
+                    $('#address_match_warning').removeClass("hidden");
+                    $("label[for='note']").html("Additional note (we cannot deliver after 5pm)")
+                    $('#boundary').val("downtown");
+                    if ($("#delivery_request_form #phone_number").val() != "" ){
+                      $("#delivery_request_form input:submit").removeClass("disabled");
+                    }
+                  } else if (contains_location(latlng)=="gta") {
+                    $('#boundary').val("GTA");
+                    $('#address_match_warning strong').html("Your meals will be delivered between <span class='text-danger-lt'>10am and 3pm every Monday and Thursday in a thermal insulated bag</span>. Our couriers will call you when they arrive. <br><br>If you live in a residence with a front desk, please make sure that your concierge can accept the delivery on your behalf, or will let our courier leave the food by your door. <br><br>If you can, please return the insulated thermal bags and ice packs to our courier so we can reuse them and minimize waste");
+                    $("label[for='note']").html("Additional note")
+                    $('#address_match_warning').removeClass("hidden");
+                    if ($("#delivery_request_form #phone_number").val() != "" ){
+                      $("#delivery_request_form input:submit").removeClass("disabled");
+                    }
+                  } else {
+                    $('#address_match_warning strong').html("Your location is outside of our delivery zone");
+                    $('#address_match_warning').removeClass("hidden");
+                    $("#delivery_request_form input:submit").addClass("disabled");                    
+                  }
+                }
+              }
+            } else {
+              $('#address_match_warning strong').html("Uh oh, something went wrong")
+            }
+          }
+        });
+
+    });
+
+    function contains_location(loc) {
+
+      var gmaps_boundary_path = []
+      var coordinates = [{"lat":"43.6721864","lng":"-79.3796969"},
+{"lat":"43.665667500000005","lng":"-79.4119692"},
+{"lat":"43.635826699999996","lng":"-79.4000387"},
+{"lat":"43.6380008","lng":"-79.3799114"},
+{"lat":"43.642442","lng":"-79.3676806"},
+{"lat":"43.6721864","lng":"-79.3796969"}]
+      var gmaps_boundary_path_gta = []
+      var coordinates_gta = [{"lat":"43.5928967999999","lng":"-79.8134128"},
+{"lat":"43.4711101","lng":"-79.6321677"},
+{"lat":"43.5007524","lng":"-79.6024704"},
+{"lat":"43.5268954","lng":"-79.6010971"},
+{"lat":"43.5877272","lng":"-79.5358658"},
+{"lat":"43.5946898","lng":"-79.500332"},
+{"lat":"43.6017116999999","lng":"-79.4963881"},
+{"lat":"43.6023019","lng":"-79.492784"},
+{"lat":"43.6094957","lng":"-79.4868187"},
+{"lat":"43.6307948","lng":"-79.4709778"},
+{"lat":"43.636324","lng":"-79.4613652"},
+{"lat":"43.6374437","lng":"-79.4547541"},
+{"lat":"43.632847","lng":"-79.4384883"},
+{"lat":"43.6258867999999","lng":"-79.4184494"},
+{"lat":"43.6267566","lng":"-79.4045449"},
+{"lat":"43.6107253","lng":"-79.3878937"},
+{"lat":"43.6144539","lng":"-79.323349"},
+{"lat":"43.6532174999999","lng":"-79.3188858"},
+{"lat":"43.6720312","lng":"-79.2782879"},
+{"lat":"43.6956797","lng":"-79.2546844"},
+{"lat":"43.705608","lng":"-79.227562"},
+{"lat":"43.719814","lng":"-79.2218127"},
+{"lat":"43.7455442","lng":"-79.1904086"},
+{"lat":"43.7538322","lng":"-79.175224"},
+{"lat":"43.7595132","lng":"-79.1524818"},
+{"lat":"43.7666427","lng":"-79.1450708"},
+{"lat":"43.7742674","lng":"-79.1343961"},
+{"lat":"43.7970561","lng":"-79.1435181"},
+{"lat":"43.8055651","lng":"-79.1311251"},
+{"lat":"43.859073","lng":"-79.1543249"},
+{"lat":"43.855621","lng":"-79.1700583"},
+{"lat":"43.941819","lng":"-79.2093658"},
+{"lat":"43.894224","lng":"-79.4197066"},
+{"lat":"43.9114798","lng":"-79.4247791"},
+{"lat":"43.9069683","lng":"-79.4463327"},
+{"lat":"43.9446891","lng":"-79.4560201"},
+{"lat":"43.9395508","lng":"-79.4814755"},
+{"lat":"43.8664774","lng":"-79.4629489"},
+{"lat":"43.8559272","lng":"-79.5113447"},
+{"lat":"43.8728389","lng":"-79.5164681"},
+{"lat":"43.8630845","lng":"-79.5648522"},
+{"lat":"43.8362604","lng":"-79.6892452"},
+{"lat":"43.791293","lng":"-79.7602823"},
+{"lat":"43.6955733","lng":"-79.867229"},
+{"lat":"43.6275903","lng":"-79.7757532"},
+{"lat":"43.5928967999999","lng":"-79.8134128"}]
+
+      coordinates.forEach(function(coordinate){
+        gmaps_boundary_path.push(new google.maps.LatLng(coordinate.lat, coordinate.lng))
+      });
+      var delivery_boundary_polygon = new google.maps.Polygon({
+        paths: gmaps_boundary_path
+      });
+
+      coordinates_gta.forEach(function(coordinate){
+        gmaps_boundary_path_gta.push(new google.maps.LatLng(coordinate.lat, coordinate.lng))
+      });
+      var delivery_boundary_polygon_gta = new google.maps.Polygon({
+        paths: gmaps_boundary_path_gta
+      });
+
+      if (google.maps.geometry.poly.containsLocation(loc, delivery_boundary_polygon)) {
+        return 'downtown'
+      } else if (google.maps.geometry.poly.containsLocation(loc, delivery_boundary_polygon_gta)) {
+        return 'gta'
+      } else {
+        return false
+      }
+    }
+
+
+    // date picker
+
+    var earliest_resume_date = new Date(2016,2,28,0,0,0,0)
+
+    var pauseEndDate = $('#pause_date_picker').datepicker({
+      format: "yyyy-mm-dd",
+      onRender: function(date) {
+        return date.valueOf() < earliest_resume_date.valueOf() ? 'disabled' : '';
+      }
+    }).on('changeDate', function() {
+        pauseDateValidate();
+        $('#pause_date_picker').datepicker('hide');
+      });
+
+    $('#pause_date_picker').datepicker('setValue', earliest_resume_date)
+
+
+    // pause date validation
+    // function pauseDateValidate() {
+    
+    $('#pause_date_picker').off("input").on("input",pauseDateValidate);
+    // }
+
+    function pauseDateValidate() {
+      userSelectedDate = new Date($('#pause_date_picker').val().split("-")[0],$('#pause_date_picker').val().split("-")[1]-1,$('#pause_date_picker').val().split("-")[2]);
+      if (userSelectedDate.valueOf() < earliest_resume_date.valueOf()) {
+        $("#pauseModal form input:submit").prop("disabled",true);
+      } else {
+        $("#pauseModal form input:submit").prop("disabled",false); 
+      }
+    };
+
+    pauseDateValidate();
+
+
+
+    // checkboxes for meal preferences
+    var disable_sub_update = false;
+
+    $('#no_beef, #no_pork, #no_poultry').off("change").on("change",function(){
+      $('#subscription_change_warning').removeClass("hidden");
+      if (disable_sub_update == false) {
+          $('#change_meal_count input[type=submit]').removeClass("disabled");
+        }
+    });
+
+    // meal selections pinner
+
+    var monday_regular_limit = 4;
+    var monday_green_limit = -1;
+    var thursday_regular_limit = 2;
+    var thursday_green_limit = 1;
+    var monday_total_limit = monday_regular_limit + monday_green_limit;
+    var thursday_total_limit = thursday_regular_limit + thursday_green_limit
+    var updated_monday_regular_limit = 4;
+    var updated_monday_green_limit = -1;
+    var updated_monday_total_limit = updated_monday_regular_limit + updated_monday_green_limit;
+    var updated_thursday_regular_limit = 2;
+    var updated_thursday_green_limit = 1;
+    var updated_thursday_total_limit = updated_thursday_regular_limit + updated_thursday_green_limit;
+
+    function update_display_guide() {
+
+      if (updated_monday_total_limit == 0) {
+        $('#monday_total_remaining_display').addClass('hidden');
+        $('#monday_selection_full').removeClass('hidden');
+      } else {
+        $('#monday_total_remaining_display').removeClass('hidden');
+        $('#monday_total_remaining').html(updated_monday_total_limit);
+        $('#monday_selection_full').addClass('hidden');
+      }
+
+      if (updated_thursday_total_limit == 0) {
+        $('#thursday_total_remaining_display').addClass('hidden');
+        $('#thursday_selection_full').removeClass('hidden');
+      } else {
+        $('#thursday_total_remaining_display').removeClass('hidden');
+        $('#thursday_total_remaining').html(updated_thursday_total_limit);
+        $('#thursday_selection_full').addClass('hidden');
+      }
+
+    };
+
+    update_display_guide();
+
+    $('#monday_beef_1_spinner').TouchSpin({
+      min: 0,
+      max: Math.max($('#monday_beef_1_spinner').val()*1 + updated_monday_total_limit,$('#monday_beef_1_spinner').val()*1),
+      step: 1
+    });
+
+    $('#monday_pork_1_spinner').TouchSpin({
+      min: 0,
+      max: Math.max($('#monday_pork_1_spinner').val()*1 + updated_monday_total_limit,$('#monday_pork_1_spinner').val()*1),
+      step: 1
+    });
+
+    $('#monday_poultry_1_spinner').TouchSpin({
+      min: 0,
+      max: Math.max($('#monday_poultry_1_spinner').val()*1 + updated_monday_total_limit,$('#monday_poultry_1_spinner').val()*1),
+      step: 1
+    });
+
+    $('#monday_green_1_1_spinner').TouchSpin({
+      min: 0,
+      max: Math.max($('#monday_green_1_1_spinner').val()*1 + updated_monday_total_limit,$('#monday_green_1_1_spinner').val()*1),
+      step: 1
+    });
+
+    $('#monday_green_2_1_spinner').TouchSpin({
+      min: 0,
+      max: Math.max($('#monday_green_2_1_spinner').val()*1 + updated_monday_total_limit,$('#monday_green_2_1_spinner').val()*1),
+      step: 1
+    });
+
+    $('#thursday_beef_1_spinner').TouchSpin({
+      min: 0,
+      max: Math.max($('#thursday_beef_1_spinner').val()*1 + updated_thursday_total_limit,$('#thursday_beef_1_spinner').val()*1),
+      step: 1
+    });
+
+    $('#thursday_pork_1_spinner').TouchSpin({
+      min: 0,
+      max: Math.max($('#thursday_pork_1_spinner').val()*1 + updated_thursday_total_limit,$('#thursday_pork_1_spinner').val()*1),
+      step: 1
+    });
+
+    $('#thursday_poultry_1_spinner').TouchSpin({
+      min: 0,
+      max: Math.max($('#thursday_poultry_1_spinner').val()*1 + updated_thursday_total_limit,$('#thursday_poultry_1_spinner').val()*1),
+      step: 1
+    });
+
+    $('#thursday_green_1_1_spinner').TouchSpin({
+      min: 0,
+      max: Math.max($('#thursday_green_1_1_spinner').val()*1 + updated_thursday_total_limit,$('#thursday_green_1_1_spinner').val()*1),
+      step: 1
+    });
+
+    $('#thursday_green_2_1_spinner').TouchSpin({
+      min: 0,
+      max: Math.max($('#thursday_green_2_1_spinner').val()*1 + updated_thursday_total_limit,$('#thursday_green_2_1_spinner').val()*1),
+      step: 1
+    });
+
+    $('#monday_beef_1_spinner, #monday_pork_1_spinner, #monday_poultry_1_spinner, #monday_green_1_1_spinner, #monday_green_2_1_spinner, #thursday_beef_1_spinner, #thursday_pork_1_spinner, #thursday_poultry_1_spinner, #thursday_green_1_1_spinner, #thursday_green_2_1_spinner').off("change").on("change", function(){
+
+      $(this).closest('.display_number_container').find('.selection_display').html($(this).val());
+      updated_monday_regular_limit = monday_regular_limit -  $('#monday_beef_1_spinner').val() -  $('#monday_pork_1_spinner').val() -  $('#monday_poultry_1_spinner').val();
+
+
+      updated_monday_green_limit = monday_green_limit -  $('#monday_green_1_1_spinner').val() -  $('#monday_green_2_1_spinner').val();
+      updated_monday_total_limit = updated_monday_regular_limit + updated_monday_green_limit;
+      updated_thursday_regular_limit = thursday_regular_limit -  $('#thursday_beef_1_spinner').val() -  $('#thursday_pork_1_spinner').val() -  $('#thursday_poultry_1_spinner').val();
+      updated_thursday_green_limit = thursday_green_limit -  $('#thursday_green_1_1_spinner').val() -  $('#thursday_green_2_1_spinner').val();
+      updated_thursday_total_limit = updated_thursday_regular_limit + updated_thursday_green_limit;
+
+
+      $('#monday_beef_1_spinner, #monday_pork_1_spinner, #monday_poultry_1_spinner, #monday_green_1_1_spinner, #monday_green_2_1_spinner').not($(this)).each(function(){$(this).trigger("touchspin.updatesettings", {max: Math.max($(this).val()*1,updated_monday_total_limit + $(this).val()*1)})});
+
+
+      $('#thursday_beef_1_spinner, #thursday_pork_1_spinner, #thursday_poultry_1_spinner, #thursday_green_1_1_spinner, #thursday_green_2_1_spinner').not($(this)).each(function(){$(this).trigger("touchspin.updatesettings", {max: Math.max($(this).val()*1,updated_thursday_total_limit + $(this).val()*1)})});
+
+
+      if (updated_monday_total_limit == 0 && updated_thursday_total_limit == 0) {
+        $('#submit_meal_selection').removeClass('disabled');  
+      } else {
+        $('#submit_meal_selection').addClass('disabled');  
+      }
+      
+      $('#unsaved_warning_meal_selection').removeClass('hidden');
+
+      update_display_guide();
+
+    })
+
+
+    // total meals spinner
+
+    var total_meal_number = 6
+    var updated_total_meal_number = total_meal_number
+    var total_green = 0
+    var updated_green= total_green
+                                                    
+    $('#total_meals_spinner').TouchSpin({
+      min: 6,
+      max: 34,
+      step: 2
+    });
+
+      
+    $('#green_meals_spinner').TouchSpin({
+        min: 0,
+        max: updated_total_meal_number,
+        step: 1
+    });
+
+    
+
+    if (disable_sub_update == false) {
+
+      $('#total_meals_spinner').off("change").on("change", function(){
+        
+        $('#subscription_change_warning').removeClass("hidden");
+
+        if (disable_sub_update == false) {
+          $('#change_meal_count input[type=submit]').removeClass("disabled");
+        }
+
+        var updated_value = $(this).val();
+
+
+        if (updated_value - updated_green < 0) { 
+            $('#monday_grn_hidden').val(updated_value/2);
+            $('#thursday_grn_hidden').val(updated_value/2);
+            updated_green = updated_value;          
+            $('#monday_reg_hidden').val(0);
+            $('#thursday_reg_hidden').val(0);  
+            updated_total_meal_number = updated_value;
+            $('#green_meals_spinner').val(updated_green);
+            $('#green_meals_spinner').trigger("touchspin.updatesettings", {max: updated_total_meal_number});
+         } else {
+            $('#monday_reg_hidden').val(updated_value/2 - $('#monday_grn_hidden').val()*1)
+            $('#thursday_reg_hidden').val(updated_value/2 - $('#thursday_grn_hidden').val()*1)
+
+            updated_total_meal_number = updated_value;
+            $('#green_meals_spinner').val(updated_green);
+            $('#green_meals_spinner').trigger("touchspin.updatesettings", {max: updated_total_meal_number});
+         
+         }
+
+         updateVisibleNumbers();
+      });
+                
+
+      $('#green_meals_spinner').off("change").on("change",function(){
+          $('#subscription_change_warning').removeClass("hidden");
+          if (disable_sub_update == false) {
+            $('#change_meal_count input[type=submit]').removeClass("disabled");
+          }
+
+          var updated_value = $(this).val();
+          var daily_difference_low;
+          var daily_difference_high;
+          var updated_mon_reg;
+          var updated_thu_reg;
+          if ((updated_value - total_green) % 2 == 0) {
+            daily_difference_low = (updated_value - total_green)/2;
+            daily_difference_high = (updated_value - total_green)/2;
+            updated_mon_grn = -1 + daily_difference_low;
+            updated_thu_grn = 1 + daily_difference_high;
+            $('#monday_grn_hidden').val(updated_mon_grn);
+            $('#thursday_grn_hidden').val(updated_thu_grn);
+            updated_green = updated_value;
+
+          } else {
+            daily_difference_low = (updated_value - total_green)/2 - 0.5;
+            daily_difference_high = (updated_value - total_green)/2 + 0.5;
+            updated_mon_grn = -1 + daily_difference_low;
+            updated_thu_grn = 1 + daily_difference_high;
+            $('#monday_grn_hidden').val(updated_mon_grn);
+            $('#thursday_grn_hidden').val(updated_thu_grn);
+            updated_green = updated_value;
+          };
+
+          $('#monday_reg_hidden').val(updated_total_meal_number/2 - updated_mon_grn);
+          $('#thursday_reg_hidden').val(updated_total_meal_number/2 - updated_thu_grn)
+
+
+          updateVisibleNumbers();
+        });
+      
+      };
+
+    function updateVisibleNumbers() {
+      $('#disp_reg').html(parseInt($('#monday_reg_hidden').val())+parseInt($('#monday_grn_hidden').val())+parseInt($('#thursday_reg_hidden').val())+parseInt($('#thursday_grn_hidden').val()));
+      $('#disp_grn').html(parseInt($('#monday_grn_hidden').val())+parseInt($('#thursday_grn_hidden').val()));
+    };
+});
+
+</script>
+
+
+<section class="vbox">
+    <header class="bg-black header header-md navbar-fixed-top-xs box-shadow">
+        <div class="navbar-header aside-md">
+            <a class="btn btn-link visible-xs m-t-sm" data-toggle="class:nav-off-screen" data-target="#nav">
+                      <i class="fa fa-bars"></i>
+            </a>
+            <a href="#dashboard" data-toggle="tab" id="logo" class="url_seg">
+              <img width="120px" alt="Chowdy" class="m-t-md m-b-sm" src="/assets/logo-light-1643d9f9031a96330234b5de5bbf3936.png" />
+            </a>
+        </div>
+      
+    </header>    
+    <section>
+        <section class="hbox stretch">
+            
+            <aside class="bg-white aside-md hidden-print b-r" id="nav">
+                <nav class="nav-primary hidden-xs padder-v tabbable">
+                    <div class="visible-xs" style="height: 65px;"></div>
+                    <ul class="nav nav-main" data-ride="collapse" id="main-nav">
+                        <li class="highlight">
+                          <a href="#dashboard" class="auto b-b padder-v" data-toggle="tab">
+                            <i class="i i-statistics icon">
+                            </i>
+                            <span class="font-bold">Dashboard</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#changePlan" class="b-b padder-v" data-toggle="tab">
+                            <i class="i i-params icon">
+                            </i>
+                            <span class="font-bold">Manage Subscription</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#referral" class="b-b padder-v"  data-toggle="tab">
+                            <i class="i i-users2 icon">
+                            </i>
+                            <span class="font-bold">Referral and Promo</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#delivery" class="b-b padder-v"  data-toggle="tab">
+                            <i class="i i-paperplane icon">
+                            </i>
+                            <span class="font-bold">Delivery</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#settings" class="b-b padder-v" data-toggle="tab">
+                            <i class="i i-settings icon">
+                            </i>
+                            <span class="font-bold">Settings</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="padder-v" href="/logout">
+                            <i class="fa fa-terminal">
+                            </i>
+                            <span class="font-bold">Log out</span>
+</a>                        </li>
+                        <div class="text-center m-t-xl">If you have any questions,<br>visit our <a href="#help" class="text-primary" data-toggle="tab">help & support</a></div>
+                        <a href="#rate_menu"  data-toggle="tab">
+                          <div class="btn btn-s-md btn-warning m-t-lg m-l-md" style="width: 82%;">
+                            <i class="fa fa-star">
+                            </i>&nbsp;&nbsp;&nbsp;&nbsp;
+                            Rate the meals
+                          </div>
+                        </a>
+                    </ul>
+                </nav>
+                
+            </aside>
+
+
+            <section id="content container">
+                <section class="hbox stretch bg-light tab-content">
+                    <section class="tab-pane active" id="dashboard" role="tabpanel">
+                        <section class="vbox">
+                            <section class="scrollable padder">
+
+                                
+                                  <section class="row m-t-md">
+                                    <div class="col-sm-12">
+                                      <div class="alert alert-success" style="margin-bottom:0 !important; font-size: 18px;">
+                                        <button type="button" class="close" data-dismiss="alert">×</button>
+                                        Your subscription will resume on Monday March 21, 2016. Meal count change effective when you resume. Hub change effective when you resume.
+                                      </div>
+                                    </div>
+                                  </section>
+                                <section class="row m-b-md">
+                                    <div class="col-sm-12">
+                                        <h3 class="m-b-xs text-muted text-center">
+                                    Welcome Daniel! Your account is <span class="text-danger-lt">Inactive</span>
+                                        </h3>
+                                    </div>
+                                </section>
+                                <section class="row">
+                                    <div class="col-sm-12">
+                                        <div class="panel b-a">
+                                            <div class="row m-n text-center">
+                                                <div class="col-md-4">
+                                                    <section class="row m-t-md m-b-md">
+                                                      <div class="block padder-v hover">
+                                                        <div class="col-md-4 col-md-offset-1 text-success-lt text-right">
+                                                          <span class="i-s i-s-2x pull-left m-r-sm" >
+                                                              <i class="i i-hexagon2 i-s-base text-changer hover-rotate"></i>
+                                                              <i class="i i-plus2 i-1x text-white"></i>
+                                                          </span>
+                                                        </div>
+                                                        <div class="col-md-7 text-left text-success-lt" style="margin-top: -25px; margin-left: -10px; padding-left: 0px;">
+                                                              <span class="h2 block" style="height: 33px; margin-top: 20px; margin-bottom: 10px;">12</span>
+                                                              <small class="text-muted text-u-c">Weekly meals</small>
+                                                        </div>  
+                                                      </div>
+                                                    </section>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <section class="row m-t-md m-b-md">
+                                                      <div class="block padder-v hover">
+                                                        <div class="col-md-4 col-md-offset-1 text-primary-lt text-right">
+                                                          <span class="i-s i-s-2x pull-left m-r-sm" >
+                                                              <i class="i i-hexagon2 i-s-base text-changer hover-rotate"></i>
+                                                              <i class="i i-alarm i-1x text-white"></i>
+                                                          </span>
+                                                        </div>
+                                                        <div class="col-md-7 text-left text-primary-lt" style="margin-top: -25px; margin-left: -10px; padding-left: 0px;">
+                                                              <span class="h4 block" style="height: 33px; margin-top: 30px; margin-bottom: 0px;">-</span>
+                                                              <small class="text-muted text-u-c">Pick-up Window This Week</small>
+                                                        </div>  
+                                                      </div>
+                                                    </section>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <section class="row m-t-md m-b-md">
+                                                      <div class="block padder-v hover">
+                                                        <div class="col-md-4 col-md-offset-1 text-info-lt text-right">
+                                                          <span class="i-s i-s-2x pull-left m-r-sm" >
+                                                              <i class="i i-hexagon2 i-s-base text-changer hover-rotate"></i>
+                                                              <i class="i i-alarm i-1x text-white"></i>
+                                                          </span>
+                                                        </div>
+                                                        <div class="col-md-7 text-left text-info-lt" style="margin-top: -25px; margin-left: -10px; padding-left: 0px;">
+                                                              <span class="h2 block" style="height: 33px; margin-top: 20px; margin-bottom: 10px;">-</span>
+                                                              <small class="text-muted text-u-c">Next billing</small>
+                                                        </div>  
+                                                      </div>
+                                                    </section>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section class="row m-b-md">
+                                    <div class="col-sm-12">
+                                        <h3 class="m-b-xs text-muted text-center">
+                                              Pick up at 346 Front St. W (Coffee Bar Inc.)
+                                        </h3>
+                                    </div>
+                                </section>
+                                <section class="row">
+                                  <section id="hub_map" class="wrapper"style="min-height: 350px; position: relative; overflow: hidden; transform: translateZ(0px); background-color: rgb(229, 227, 223);"></section>
+                                </section>
+                            </section>
+                        </section>
+                    </section>
+                    
+                    <section class="tab-pane" id="changePlan" role="tabpanel">
+                        <section class="vbox">
+                            <section class="scrollable padder">
+                                <section class="row m-t-md">
+                                  <div class="col-sm-12">
+                                    <div class="alert alert-success" style="margin-bottom:0 !important; font-size: 18px;">
+                                      <button type="button" class="close" data-dismiss="alert">×</button>
+                                      Your subscription will resume on Monday March 21, 2016. Meal count change effective when you resume. Hub change effective when you resume.
+                                    </div>
+                                  </div>
+                                </section>
+                                <section class="row m-b-xs m-t-md">
+                                    <div class="col-sm-12">
+                                        <h5 class="m-b-xs text-muted text-left">
+                                            Subscription Details (you can increase it to up to 34 meals yourself. Please email us if you'd like more)
+                                        </h5>
+                                    </div>
+                                </section>
+                                <section class="row">
+                                    <div class="col-sm-12">
+                                        <div class="panel b-a">
+                                            <div class="row m-n text-center">
+                                                <div class="col-md-6 b-b">
+                                                    <section class="row m-t-md m-b-md">
+                                                      
+                                                        <div class="col-md-12 text-center text-muted m-t-n-md container">
+                                                          <div class="row">
+                                                              <span class="h2 block" id="disp_reg" >6</span>
+                                                              <small class="text-muted text-u-c">Total meals</small>
+                                                          </div>
+                                                          <div class="row row-centered">
+                                                            <div class="col-md-6 col-centered" style="float:none; margin-top: -50px;">
+                                                              <input type="text" id="total_meals_spinner" value="6" style="opacity: 0;">
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                      
+                                                    </section>
+                                                </div>
+                                                <div class="col-md-6 b-b">
+                                                    <section class="row m-t-md m-b-md">
+                                                      
+                                                        <div class="col-md-12 text-center text-success-lt m-t-n-md container">
+                                                          <div class="row">
+                                                              <span class="h2 block" id="disp_grn">0</span>
+                                                              <small class="text-muted text-u-c">Green meals</small>
+                                                          </div>
+                                                          <div class="row row-centered">
+                                                            <div class="col-md-6 6 col-centered" style="float:none; margin-top: -50px;">
+                                                              <input type="text" id="green_meals_spinner" value="0" style="opacity: 0" >
+                                                            </div>
+                                                          </div>
+                                                        </div>  
+                                                      
+                                                    </section>
+                                                </div>
+                                            </div>
+                                            
+                                              <form id="change_meal_count" action="/customers/update/change_subscription" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="YYnOr+db2HL2ujBFqWTNnIODxi+auzinsk5U4DCyZLFHMPm/5G9gxwVjbASGS10Z+fCA98fUD7y2qQML9d0x5Q==" />
+                                                <div class="row padder m-t-sm">
+                                                  <div class="col-sm-8">
+                                                    <div class="row">
+                                                      <div class="col-sm-4">
+                                                        <div class="checkbox i-checks">
+                                                          <label for="no_pork">
+                                                            <input type="checkbox" name="no_pork" id="no_pork" />
+                                                            <i></i>
+                                                            No Pork
+</label>                                                        </div>
+                                                      </div>  
+                                                      <div class="col-sm-4">
+                                                        <div class="checkbox i-checks">
+                                                          <label for="no_beef">
+                                                            <input type="checkbox" name="no_beef" id="no_beef" />
+                                                            <i></i>
+                                                            No Beef
+</label>                                                        </div>
+                                                      </div>  
+                                                      <div class="col-sm-4">
+                                                        <div class="checkbox i-checks">
+                                                          <label for="no_poultry">
+                                                            <input type="checkbox" name="no_poultry" id="no_poultry" />
+                                                            <i></i>
+                                                            No Poultry
+</label>                                                        </div>
+                                                      </div>  
+                                                    </div>
+                                                  </div>
+                                                </div>
+                                                <div class="row">
+                                                  <div class="col-sm-12">
+                                                    <div class="alert" style="margin-bottom:0 !important;">
+                                                      For non-delivery customers, please double check your meals at the hub to ensure that you received the correct meals. If not, simply ask the staff to change the meals for you.
+                                                    </div>
+                                                  </div>                                                  
+                                                </div>
+
+                                                <div class="row padder">
+                                                  <div class="col-sm-2 padder-v">
+                                                  
+                                                    <input type="hidden" name="monday_reg_hidden" id="monday_reg_hidden" value="4" />
+                                                    <input type="hidden" name="monday_grn_hidden" id="monday_grn_hidden" value="-1" />
+                                                    <input type="hidden" name="thursday_reg_hidden" id="thursday_reg_hidden" value="2" />
+                                                    <input type="hidden" name="thursday_grn_hidden" id="thursday_grn_hidden" value="1" />
+                                                    <input type="submit" name="commit" value="Update Subscription" class="btn btn-s-md btn-success disabled" />          
+                                                  </div>
+                                                  <div class="col-sm-3 padder-v hidden" id="subscription_change_warning">
+                                                    <div class="alert alert-warning alert-block text-center" style="height:34px; padding-top:8px;">
+                                                      
+                                                      You have unsaved changes
+                                                    </div>
+                                                  </div>
+                                                </div>  
+</form>                
+                                             
+                                        </div>
+                                    </div>
+                                </section>                           
+                                <section class="row m-b-xs">
+                                    <div class="col-sm-12">
+                                        <h5 class="m-b-xs text-muted text-left">
+                                            Change Pick-up Hub
+                                        </h5>
+                                    </div>
+                                </section>
+                                <section class="row">
+                                    <div class="col-sm-12">
+                                        <div class="panel b-a padder text-left padder-v">
+                                            <form class="m-b-none" id="hub_change_form" action="/customers/update/hub" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="WpD2IZmZ/9Ar1OY4VkaNJiN8GjhQy+WccM2kBSRHcjx8KcExmq1HZdgNunl5aR2jWQ9c4A2k0od0KvPu4SgnaA==" />
+                                              <div class="form-group">
+                                                <select name="hub" id="chosen-select-hub" data-placeholder="599 Yonge St. (Wanda&#39;s)"><option value=""></option><option value="346 Front St. W (Coffee Bar Inc.)">346 Front St. W (Coffee Bar Inc.)</option>
+<option value="599 Yonge St. (Wanda&#39;s)">599 Yonge St. (Wanda&#39;s)</option>
+<option value="333 Bay St. (deKEFIR)">333 Bay St. (deKEFIR)</option></select>
+                                                <script>
+                                                  $("#chosen-select-hub").chosen({
+                                                    width: "330px",
+                                                    disable_search: true
+                                                  }).off("change").on("change",function(){
+                                                    $("#hub_change_form input[type=submit]").removeClass("disabled");
+                                                    $("#hub_change_warning div").removeClass("hidden");
+                                                  })
+                                                </script>
+                                              </div>
+                                              <div class="row m-b-n-md">
+                                                <div class="col-sm-2 padder-v">
+                                                  <input type="submit" name="commit" value="Update Hub" class="btn btn-s-md btn-success disabled" />
+                                                </div>
+                                                <div class="col-sm-3 padder-v " id="hub_change_warning">
+                                                  <div class="alert alert-warning alert-block text-center hidden" style="height:34px; padding-top:8px;"> 
+                                                    You have unsaved changes
+                                                  </div>
+                                                </div>
+                                              </div>
+</form>                                        </div>
+                                    </div>
+                                </section>                           
+                                <section class="row m-b-xs">
+                                    <div class="col-sm-12">
+                                        <h5 class="m-b-xs text-muted text-left">
+                                            Put Subscription on Hold (deadline to cancel or pause is the Thursday of every week)
+                                        </h5>
+                                    </div>
+                                </section>
+                                <section class="row">
+                                    <div class="col-sm-12">
+                                        <div class="panel b-a padder text-left">
+                                            <div class="row">
+                                                <div class="col-sm-2 m-b-md m-t-md">
+                                                  <div class="btn btn-s-md btn-default" data-toggle="modal" data-target="#cancelModal">Cancel Subscription</div>
+                                                </div>
+                                            </div>  
+                                        </div>
+                                    </div>
+                                </section>                           
+                            </section>
+                        </section>
+                    </section> 
+
+                    <section class="tab-pane" id="referral" role="tabpanel">
+                        <section class="vbox">
+                            <section class="scrollable padder">
+                                <section class="row m-b-xs m-t-md">
+                                    <div class="col-sm-12">
+                                        <h5 class="m-b-xs text-muted text-left">
+                                            Your referrals
+                                        </h5>
+                                    </div>
+                                </section>
+                                <section class="row">
+                                    <div class="col-sm-12">
+                                        <div class="panel b-a">
+                                          <div class="panel-heading no-border bg-light lt text-center"><h4>Your referral code is: <span class="text-primary-lt">danielclar108</span></h4>
+                                            <div class="row m-l-md m-r-md padder">
+                                              <p>For every friend who signs up with this code, both you and your friend get $10 in meal credits</p>
+                                            </div>                                            
+                                            <div class="row">
+                                              <a rel="me" href="https://twitter.com/intent/tweet?text=Try%20Chowdy%20$7.99%20meal%20subscription%20with%20referral%20code%20danielclar108,%20get%20$10%20off&url=http://chowdy.ca" class="btn btn-rounded btn-lg text-info-lt" style="font-size: 25px" target="_blank"><i class="fa fa-twitter"></i></a>
+                                              <a href="https://www.facebook.com/dialog/feed?app_id=441155419386386&redirect_uri=http://chowdy.ca&link=http://chowdy.ca&caption=$7.99%20meal%20subscription%20for%20Toronto%20professionals&description=Sign%20up%20with%20referral%20code%20danielclar108,%20get%20$10%20off" class="btn btn-rounded btn-lg text-primary" style="font-size: 25px" target="_blank"><i class="fa fa-facebook"></i></a>
+                                              <a href="mailto:?subject=Try%20Chowdy&body=Sign%20up%20to%20Chowdy%20$7.99%20meal%20subscription%20with%20referral%20code%20danielclar108,%20get%20$10%20off%20%20http://chowdy.ca%0A%0ADaniel" class="btn btn-rounded btn-lg text-muted" style="font-size: 25px" ><i class="i i-mail"></i></a>
+                                            </div>
+                                          </div>
+                                            <div class="row m-n text-center">
+                                                <div class="col-md-6">
+                                                    <section class="row m-t-md m-b-md">
+                                                      <div class="block padder-v hover">
+                                                        <div class="col-md-4 col-md-offset-1 text-success-lt text-right">
+                                                          <span class="i-s i-s-2x pull-left m-r-sm" >
+                                                              <i class="i i-hexagon2 i-s-base text-changer hover-rotate"></i>
+                                                              <i class="fa fa-user text-white"></i>
+                                                          </span>
+                                                        </div>
+                                                        <div class="col-md-7 text-left text-success-lt" style="margin-top: -25px; margin-left: -10px; padding-left: 0px;">
+                                                              <span class="h2 block">0</span>
+                                                              <small class="text-muted text-u-c">People referred</small>
+                                                        </div>  
+                                                      </div>
+                                                    </section>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <section class="row m-t-md m-b-md">
+                                                      <div class="block padder-v hover">
+                                                        <div class="col-md-4 col-md-offset-1 text-primary-lt text-right">
+                                                          <span class="i-s i-s-2x pull-left m-r-sm" >
+                                                              <i class="i i-hexagon2 i-s-base text-changer hover-rotate"></i>
+                                                              <i class="i i-star2 i-1x text-white"></i>
+                                                          </span>
+                                                        </div>
+                                                        <div class="col-md-7 text-left text-primary-lt" style="margin-top: -25px; margin-left: -10px; padding-left: 0px;">
+                                                              <span class="h2 block">$0</span>
+                                                              <small class="text-muted text-u-c">Credits earned</small>
+                                                        </div>  
+                                                      </div>
+                                                    </section>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+
+                                <section class="row m-b-xs">
+                                    <div class="col-sm-12">
+                                        <h5 class="m-b-xs text-muted text-left">
+                                            Apply promo code
+                                        </h5>
+                                    </div>
+                                </section>
+                                <section class="row">
+                                    <div class="col-sm-12">
+                                        <div class="panel b-a padder text-left padder-v">
+                                            <form class="m-b-none" action="/redeem_promo" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="zvXOF9pok8MaH26sUpJmE1lUH3nO7ukETtmKa86MCpnoTPkH2VwrdunGMu19vfaWIydZoZOB3h9KPt2AC+NfzQ==" />
+                                              <div class="row">
+                                                <div class="col-sm-4">
+                                                  <div class="form-group">
+                                                    <input type="text" name="promo_code" id="promo_code" class="form-control" />
+                                                  </div>
+                                                </div>
+                                                <div class="col-sm-3">
+                                                  <input type="submit" name="commit" value="Apply code" class="btn btn-s-md btn-success" />
+                                                </div>
+                                                </div>
+                                              </div>
+</form>                                        </div>
+                                    </div>
+                                </section>                           
+
+
+                            </section>
+                        </section>
+                    </section>
+
+
+                    <section class="tab-pane" id="delivery" role="tabpanel">
+                      <section class="vbox">
+                        <section class="scrollable padder">   
+                          <div class="row">
+                            <div class="col-sm-6">
+                              <div class="alert alert-warning m-t-md padder-v">
+                                  <h5>You do not currently have scheduled delivery</h5>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-sm-6">
+                              <section class="panel panel-default">
+                                <header class="panel-heading font-bold">Delivery request form ($8 per drop)<span id="delivery_time_notice"> - note that <span class="text-danger-lt">default delivery time is every Monday and Thursday between 11am and 1pm</span> unless otherwise requested below. <br><br>If you live in a residence with a front desk, please make sure that your concierge can accept the delivery on your behalf, or will let our courier leave the food by your door (note that since you are in our downtown delivery zone, your meals will come in regular bags, not thermal-insulated bags. So if you cannot receive your meals during our default delivery time, please indicate below a better time for delivery)<br><br>If our courier cannot drop off the meals, they will return them to the hub, where you're welcome to pick up the meals yourself.</span></header>
+                                <div class="panel-body">
+                                  <form role="form" id="delivery_request_form" action="/customers/update/delivery" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="3tMtIjh/kemngOejiWUM35MqhwEHcQN3Ss0uL6g3GVf4ahoyO0spXFRZu+KmSpxa6VnB2VoeNGxOKnnEbVhMAw==" />
+                                    <div class="form-group">
+                                      <label for="phone_number">Phone number</label>
+                                      <input type="tel" name="phone_number" id="phone_number" value="4577668887" class="form-control" />
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="delivery_address">Delivery address with unit number</label>
+                                      <input type="text" name="delivery_address" id="delivery_address" value="Toronto23, ON, Canada23 Toronto St, Toronto, ON M5C 2R1, Canada" class="form-control" />
+                                      <div class="alert alert-warning m-t-xs hidden" id="address_match_warning">
+                                          <strong></strong>
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="note">Additional note (we cannot deliver after 5pm)</label>
+                                      <textarea name="note" id="note" class="form-control">
+23123</textarea>
+                                    </div>
+                                    <input type="hidden" name="boundary" id="boundary" value="downtown" />
+                                    <div class="row">
+                                      <div class="col-sm-5 m-t-md">
+                                        <input type="submit" name="commit" value="Request delivery" class="btn btn-md btn-default " id="request_delivery_submit" />
+                                      </div>
+                                      <div class="col-sm-7 m-t-md">
+                                        <div class="alert alert-warning alert-block text-center hidden" id="delivery_change_warning" style="height:34px; padding-top:8px;">
+                                          
+                                          You have unsaved changes
+                                        </div>
+                                      </div>
+                                    </div>
+</form>                                </div>
+                              </section>
+                            </div>
+                          </div>                      
+                        </section>
+                      </section>                      
+                    </section>
+
+
+                    <section class="tab-pane" id="settings" role="tabpanel">
+                      <section class="vbox">
+                        <section class="scrollable padder"> 
+
+                          <div class="row m-t-md">
+                            <div class="col-sm-6">
+                              <section class="panel panel-default">
+                                <header class="panel-heading font-bold">Update account information</header>
+                                <div class="panel-body">
+                                  <form role="form" action="/customers/update/email" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="nMC9hbHPRkzsBrT0Fj/9WOzcWTl5NFHcCEy5MWKq1r26eYqVsvv++R/f6LU5EG3dlq8f4SRbZscMq+7ap8WD6Q==" />
+                                    <div class="form-group">
+                                      <label for="email">Email</label>
+                                      <input type="text" name="email" id="email" value="dac472@gmail.com" class="form-control" />
+                                      <input type="submit" name="commit" value="Update email" class="btn btn-md btn-default m-t-sm" />
+                                    </div>
+</form>                                  <div class="line line-dashed b-b line-lg pull-in"></div>
+                                  <form action="/customers/update/name" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/IWnsIorh1/q1BO0PU54IVLsR7GFCyUDsCHW6Ou+T6faPJCgiR8/6hkNT/USYeikKJ8BadhkEhi0xoEDLtEa8w==" />
+                                    <div class="form-group">
+                                      <label for="name">Name</label>
+                                      <input type="text" name="name" id="name" value="Daniel Clark" class="form-control" />
+                                      <input type="submit" name="commit" value="Update name" class="btn btn-md btn-default m-t-sm" />
+                                    </div>
+</form>                                  <div class="line line-dashed b-b line-lg pull-in"></div>
+                                  <form id="change_card_form" action="/customers/update/change_card" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="A79uGhTADFeKpPQRNd2KfqEbUoWh+cpfTgFR81YdhrglBlkKF/S04nl9qFAa8hr722gUXfyW/URK5gYYk3LT7A==" />
+                                    <div class="form-group">
+                                      <label>Credit Card</label>
+                                      <p class="form-control-static">MasterCard ending in 7864</p>
+                                        <script>
+                                        $(function() {
+                                            $('#change_card_form input[type=submit]').on('click', function(event) {
+                                                event.preventDefault();
+
+                                                var $button = $(this),
+                                                    $form = $button.parents('form');
+
+                                                var opts = $.extend({}, $button.data(), {
+                                                    token: function(result) {
+                                                        $form.append($('<input>').attr({ type: 'hidden', name: 'stripeToken', value: result.id })).submit();
+                                                    }
+                                                });
+
+                                                StripeCheckout.open(opts);
+                                            });
+                                        });
+                                        </script>
+                                        <input type="submit" name="commit" value="Change Card" class="btn btn-md btn-info m-t-sm" data-key="pk_live_UWi6qeIfhNp7pTRWZb7jvm4i" data-description="Update your credit card info" data-amount="0" data-label="Change Card" data-panel-label="Change Now" />
+                                    </div>
+</form>                                  <div class="line line-dashed b-b line-lg pull-in"></div>
+                                  <div class="form-group">
+                                    <label>Service feedback (<a href="#rate_menu" data-toggle="tab" class="url_seg">click here</a> to provide meal-specific feedback)</label>
+                                    <p class="form-control-static">
+                                      <div class="btn btn-md btn-success"  data-toggle="modal" data-target="#feedbackModal">Provide Feedback
+                                      </div>
+                                    </p>
+                                  </div>
+                                </div>
+                              </section>
+                            </div>
+                          </div>
+                        </section>
+                      </section>                      
+                    </section>  
+
+                    <section class="tab-pane" id="help" role="tabpanel">
+                      <section class="vbox">
+                        <section class="scrollable padder"> 
+                          <div class="row m-t-md">
+                            <div class="col-sm-12">
+                              If you do not see your answer here, feel free to email <a href="mailto:help@chowdy.ca">help@chowdy.ca</a>  
+                            </div>
+                            
+                          </div>
+                          <div class="row m-t-md">
+                            <div class="col-sm-4">
+                              <section class="panel default-panel">
+                                <header class="panel-heading no-border bg-light lt text-center font-bold">
+                                  Selecting and managing meals for pick up
+                                </header>
+                                <div class="panel-body">
+                                  <ul style="list-style:none; padding-left:0;">
+                                    <li>
+                                      <section class="panel portlet-item" style="-webkit-box-shadow: none; box-shadow: none;">
+                                        <header class="panel-heading" style="padding-left:0; padding-right:0;">
+                                          <a href="#" class="panel-toggle text-muted">
+                                            <span class="font-bold">How do I select my meals?</span>
+                                            <i class="fa fa-caret-down text nav nav-pills pull-right" style="margin:3px 16px;"></i><i class="fa fa-caret-up text-active nav nav-pills pull-right" style="margin:3px 16px;"></i>
+                                          </a>
+                                        </header>
+                                        <section class="panel-body collapse" style="padding-left:0; padding-right:0;">
+                                          <span>You can log into your Chowdy account and set your meal preferences under <a href="#changePlan" data-toggle="tab" class="url_seg">Manage Subscription</a>.<br><br>
+                                          When you go to the hub to pick up, you are free to choose your own meals, but please make sure you’ve selected any meal preferences to keep things balanced for other subscribers who pick up.</span>                                          
+                                        </section>
+                                      </section>
+                                    </li>
+                                    <div class="line line-dashed b-b line-lg"></div>
+                                    <li>
+                                      <section class="panel portlet-item" style="-webkit-box-shadow: none; box-shadow: none;">
+                                        <header class="panel-heading" style="padding-left:0; padding-right:0;">
+                                          <a href="#" class="panel-toggle text-muted">
+                                            <span class="font-bold">When do I start my meal plan?</span>
+                                            <i class="fa fa-caret-down text nav nav-pills pull-right" style="margin:3px 16px;"></i><i class="fa fa-caret-up text-active nav nav-pills pull-right" style="margin:3px 16px;"></i>
+                                          </a>
+                                        </header>
+                                        <section class="panel-body collapse" style="padding-left:0; padding-right:0;">
+                                          <span>Your meal plan officially begins on the date indicated in your confirmation email and on the signup page.<br><br>
+                                        You can pick up or get your meals delivered twice a week. Fresh batches are available Monday and Thursday. You have a 3 day window to pick up every batch for food safety reasons.</span>                                          
+                                        </section>
+                                      </section>
+                                    </li>
+                                    <div class="line line-dashed b-b line-lg"></div>
+                                    <li>
+                                      <section class="panel portlet-item" style="-webkit-box-shadow: none; box-shadow: none;">
+                                        <header class="panel-heading" style="padding-left:0; padding-right:0;">
+                                          <a href="#" class="panel-toggle text-muted">
+                                            <span class="font-bold">Where and when do I pick up my meals?</span>
+                                            <i class="fa fa-caret-down text nav nav-pills pull-right" style="margin:3px 16px;"></i><i class="fa fa-caret-up text-active nav nav-pills pull-right" style="margin:3px 16px;"></i>
+                                          </a>
+                                        </header>
+                                        <section class="panel-body collapse" style="padding-left:0; padding-right:0;">
+                                          <span>Your meals can be picked up from the hub you’ve selected, during regular store hours. You can see your current hub along with store hours on your <a href="#dashboard" data-toggle="tab" class="url_seg">Dashboard</a> when you log into your Chowdy account.</span>                                          
+                                        </section>
+                                      </section>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </section>
+                            </div>
+                            <div class="col-sm-4">
+                              <section class="panel default-panel">
+                                <header class="panel-heading no-border bg-light lt text-center font-bold">
+                                  Setting up optional delivery
+                                </header>
+                                <div class="panel-body">
+                                  <ul style="list-style:none; padding-left:0;">
+                                    <li>
+                                      <section class="panel portlet-item" style="-webkit-box-shadow: none; box-shadow: none;">
+                                        <header class="panel-heading" style="padding-left:0; padding-right:0;">
+                                          <a href="#" class="panel-toggle text-muted">
+                                            <span class="font-bold">How much is delivery?</span>
+                                            <i class="fa fa-caret-down text nav nav-pills pull-right" style="margin:3px 16px;"></i><i class="fa fa-caret-up text-active nav nav-pills pull-right" style="margin:3px 16px;"></i>
+                                          </a>
+                                        </header>
+                                        <section class="panel-body collapse" style="padding-left:0; padding-right:0;">
+                                          <span>Delivery is $8 per drop off, $16 total for the week.</span>                                          
+                                        </section>
+                                      </section>
+                                    </li>
+                                    <div class="line line-dashed b-b line-lg"></div>
+                                    <li>
+                                      <section class="panel portlet-item" style="-webkit-box-shadow: none; box-shadow: none;">
+                                        <header class="panel-heading" style="padding-left:0; padding-right:0;">
+                                          <a href="#" class="panel-toggle text-muted">
+                                            <span class="font-bold">How do I set up delivery?</span>
+                                            <i class="fa fa-caret-down text nav nav-pills pull-right" style="margin:3px 16px;"></i><i class="fa fa-caret-up text-active nav nav-pills pull-right" style="margin:3px 16px;"></i>
+                                          </a>
+                                        </header>
+                                        <section class="panel-body collapse" style="padding-left:0; padding-right:0;">
+                                          <span>You can set up delivery under the <a href="#delivery" data-toggle="tab" class="url_seg">Delivery</a> option in your Chowdy account.</span>                                          
+                                        </section>
+                                      </section>
+                                    </li>
+                                    <div class="line line-dashed b-b line-lg"></div>
+                                    <li>
+                                      <section class="panel portlet-item" style="-webkit-box-shadow: none; box-shadow: none;">
+                                        <header class="panel-heading" style="padding-left:0; padding-right:0;">
+                                          <a href="#" class="panel-toggle text-muted">
+                                            <span class="font-bold">When does delivery happen?</span>
+                                            <i class="fa fa-caret-down text nav nav-pills pull-right" style="margin:3px 16px;"></i><i class="fa fa-caret-up text-active nav nav-pills pull-right" style="margin:3px 16px;"></i>
+                                          </a>
+                                        </header>
+                                        <section class="panel-body collapse" style="padding-left:0; padding-right:0;">
+                                          <span>Deliveries are made every Monday and Thursday.<br><br>For our downtown delivery, you can expect the meals to arrive around lunch time (11am to 1pm) unless otherwise requested.
+                                          <br>
+                                          <br>
+                                          For GTA deliveries, the meals will arrive between 10am-3pm.</span>                                    
+                                        </section>
+                                      </section>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </section>
+                            </div>
+                            <div class="col-sm-4">
+                              <section class="panel default-panel">
+                                <header class="panel-heading no-border bg-light lt text-center font-bold">
+                                  Managing my account
+                                </header>
+                                <div class="panel-body">
+                                  <ul style="list-style:none; padding-left:0;">
+                                    <li>
+                                      <section class="panel portlet-item" style="-webkit-box-shadow: none; box-shadow: none;">
+                                        <header class="panel-heading" style="padding-left:0; padding-right:0;">
+                                          <a href="#" class="panel-toggle text-muted">
+                                            <span class="font-bold">How do I pause/change my subscription?</span>
+                                            <i class="fa fa-caret-down text nav nav-pills pull-right" style="margin:3px 16px;"></i><i class="fa fa-caret-up text-active nav nav-pills pull-right" style="margin:3px 16px;"></i>
+                                          </a>
+                                        </header>
+                                        <section class="panel-body collapse" style="padding-left:0; padding-right:0;">
+                                          <span>You can pause or cancel your meal subscription (along with other changes) under <a href="#changePlan" data-toggle="tab" class="url_seg">Manage Subscription</a> on your Chowdy account.</a><br><br>
+
+                                            Please remember to make any account changes by the Thursday of every week as that is the cut off date. (We order your fresh ingredients ahead of time to keep the meal plan affordable).</span>                                    
+                                        </section>
+                                      </section>
+                                    </li>
+                                    <div class="line line-dashed b-b line-lg"></div>
+                                    <li>
+                                      <section class="panel portlet-item" style="-webkit-box-shadow: none; box-shadow: none;">
+                                        <header class="panel-heading" style="padding-left:0; padding-right:0;">
+                                          <a href="#" class="panel-toggle text-muted">
+                                            <span class="font-bold">Do you provide calories and other nutritional info for every meal?</span>
+                                            <i class="fa fa-caret-down text nav nav-pills pull-right" style="margin:3px 16px;"></i><i class="fa fa-caret-up text-active nav nav-pills pull-right" style="margin:3px 16px;"></i>
+                                          </a>
+                                        </header>
+                                        <section class="panel-body collapse" style="padding-left:0; padding-right:0;">
+                                          <span>It’s still a work in progress!<br><br>
+                                            Our menu is always changing based on what the chefs can source locally so we do not have standardized meals every week. We are currently working on creating accurate nutritional info for subscribers while developing more healthy and affordable meals.  
+                                          </span>                                    
+                                        </section>
+                                      </section>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </section>
+                            </div>
+                          </div>
+                        </section>
+                      </section>                      
+                    </section>  
+
+
+                    <section class="tab-pane" id="rate_menu" role="tabpanel">
+                      <section class="vbox">
+                        <section class="scrollable padder"> 
+                          <div class="row">
+                            <div class="col-sm-6 b-r b-3x">
+                              <div class="row m-t-md padder">
+                                <div class="col-sm-12 b-b b-3x"><b>Meals for Monday - Wednesday (Mar 07 - Mar 09)</b></div>
+                              </div>  
+                              <div class="row m-t-md padder menu_card animated fade_left" data-menu-id="1611">
+                                <div class="col-sm-12">
+                                  <section class="panel b-a animated fadeInUp" style="border: none;" id="rating_monday_beef">
+                                    <div class="panel-heading no-border bg-dark">
+                                      <span class="font-bold" style="color: #FFFFFF "> Beef Stew</span>
+                                    </div>
+                                    <div class="panel-body no-border">
+                                      Feedback for this item
+                                      <section class="scrollable bg-light lter">
+                                        <textarea rows="3" class="form-control scrollable"></textarea>
+                                        <input type="hidden" name="menu_id" id="menu_id" value="1611" />
+                                      </section>
+                                    </div>
+                                    <div class="clearfix panel-footer no-border">
+                                      <div class="star_rating pull-left"></div>
+                                      <div class="submit_meal_rating pull-right btn btn-default disabled" id="submit_rating_monday_beef">Submit rating</div>
+                                    </div>
+                                  </section>
+                                </div>
+                              </div>
+                              <div class="row m-t-md padder menu_card animated fade_left" data-menu-id="1612">
+                                <div class="col-sm-12">
+                                  <section class="panel b-a animated fadeInUp" style="border: none;" id="rating_monday_pork">
+                                    <div class="panel-heading no-border bg-black lter">
+                                      <span class="font-bold" style="color: #FFFFFF">Swedish Meatballs</span>
+                                    </div>
+                                    <div class="panel-body no-border">
+                                      Feedback for this item
+                                      <section class="scrollable bg-light lter">
+                                        <textarea rows="3" class="form-control scrollable"></textarea>
+                                        <input type="hidden" name="menu_id" id="menu_id" value="1612" />
+                                      </section>
+                                    </div>
+                                    <div class="clearfix panel-footer no-border">
+                                      <div class="star_rating pull-left"></div>
+                                      <div class="submit_meal_rating pull-right btn btn-default disabled" id="submit_rating_monday_pork">Submit rating</div>
+                                    </div>
+                                  </section>
+                                </div>                              
+                              </div>
+                              <div class="row m-t-md padder menu_card animated fade_left" data-menu-id="1613">
+                                <div class="col-sm-12">
+                                  <section class="panel b-a animated fadeInUp" style="border: none;" id="rating_monday_poultry">
+                                    <div class="panel-heading no-border bg-black lter">
+                                      <span class="font-bold" style="color: #FFFFFF ">Chicken with Sundried Tomato and Cream Sauce</span>
+                                    </div>
+                                    <div class="panel-body no-border">
+                                      Feedback for this item
+                                      <section class="scrollable bg-light lter">
+                                        <textarea rows="3" class="form-control scrollable"></textarea>
+                                        <input type="hidden" name="menu_id" id="menu_id" value="1613" />
+                                      </section>
+                                    </div>
+                                    <div class="clearfix panel-footer no-border">
+                                      <div class="star_rating pull-left"></div>
+                                      <div class="submit_meal_rating pull-right btn btn-default disabled" id="submit_rating_monday_poultry">Submit rating</div>
+                                    </div>
+                                  </section>
+                                </div>                              
+                              </div>
+                              <div class="row m-t-md padder menu_card animated fade_left" data-menu-id="1614">
+                                <div class="col-sm-12">
+                                  <section class="panel b-a animated fadeInUp" style="border: none;" id="rating_monday_green_1">
+                                    <div class="panel-heading no-border bg-success lter">
+                                      <span class="font-bold" style="color: #FFFFFF ">Roasted Eggplant and Tomato Orzo Salad</span>
+                                    </div>
+                                    <div class="panel-body no-border">
+                                      Feedback for this item
+                                      <section class="scrollable bg-light lter">
+                                        <textarea rows="3" class="form-control scrollable"></textarea>
+                                        <input type="hidden" name="menu_id" id="menu_id" value="1614" />
+                                      </section>
+                                    </div>
+                                    <div class="clearfix panel-footer no-border">
+                                      <div class="star_rating pull-left"></div>
+                                      <div class="submit_meal_rating pull-right btn btn-default disabled" id="submit_rating_monday_green_1">Submit rating</div>
+                                    </div>
+                                  </section>
+                                </div>                              
+                              </div>
+                              <div class="row m-t-md padder menu_card animated fade_left" data-menu-id="1615">
+                                <div class="col-sm-12">
+                                  <section class="panel b-a animated fadeInUp" style="border: none;" id="rating_monday_green_2">
+                                    <div class="panel-heading no-border bg-success lter">
+                                      <span class="font-bold" style="color: #FFFFFF ">Asparagus Quiche</span>
+                                    </div>
+                                    <div class="panel-body no-border">
+                                      Feedback for this item
+                                      <section class="scrollable bg-light lter">
+                                        <textarea rows="3" class="form-control scrollable"></textarea>
+                                        <input type="hidden" name="menu_id" id="menu_id" value="1615" />
+
+                                      </section>
+                                    </div>
+                                    <div class="clearfix panel-footer no-border">
+                                      <div class="star_rating pull-left"></div>
+                                      <div class="submit_meal_rating pull-right btn btn-default disabled" id="submit_rating_monday_green_2">Submit rating</div>
+                                    </div>
+                                  </section>
+                                </div>                              
+                              </div>
+                            </div>
+                            <div class="col-sm-6">
+                              <div class="row m-t-md padder">
+                                <div class="col-sm-12 b-b b-3x"><b>Meals for Thursday - Saturday (Mar 10 - Mar 12)</b></div>
+                              </div>  
+                              <div class="row m-t-md padder menu_card animated fade_right" data-menu-id="1616">
+                                <div class="col-sm-12">
+                                  <section class="panel b-a animated fadeInUp" style="border: none;" id="rating_monday_beef">
+                                    <div class="panel-heading no-border bg-dark">
+                                      <span class="font-bold" style="color: #FFFFFF ">Beef Bolognese</span>
+                                    </div>
+                                    <div class="panel-body no-border">
+                                      Feedback for this item
+                                      <section class="scrollable bg-light lter">
+                                        <textarea rows="3" class="form-control scrollable"></textarea>
+                                        <input type="hidden" name="menu_id" id="menu_id" value="1616" />
+                                      </section>
+                                    </div>
+                                    <div class="clearfix panel-footer no-border">
+                                      <div class="star_rating pull-left"></div>
+                                      <div class="submit_meal_rating pull-right btn btn-default disabled" id="submit_rating_thursday_beef">Submit rating</div>
+                                    </div>
+                                  </section>
+                                </div>
+                              </div>
+                              <div class="row m-t-md padder menu_card animated fade_right" data-menu-id="1617">
+                                <div class="col-sm-12">
+                                  <section class="panel b-a animated fadeInUp" style="border: none;" id="rating_thursday_pork">
+                                    <div class="panel-heading no-border bg-black lter">
+                                      <span class="font-bold" style="color: #FFFFFF">Slow Roasted Pork Shoulder with Peach Sauce</span>
+                                    </div>
+                                    <div class="panel-body no-border">
+                                      Feedback for this item
+                                      <section class="scrollable bg-light lter">
+                                        <textarea rows="3" class="form-control scrollable"></textarea>
+                                        <input type="hidden" name="menu_id" id="menu_id" value="1617" />
+                                      </section>
+                                    </div>
+                                    <div class="clearfix panel-footer no-border">
+                                      <div class="star_rating pull-left"></div>
+                                      <div class="submit_meal_rating pull-right btn btn-default disabled" id="submit_rating_thursday_pork">Submit rating</div>
+                                    </div>
+                                  </section>
+                                </div>                              
+                              </div>
+                              <div class="row m-t-md padder menu_card animated fade_right" data-menu-id="1618">
+                                <div class="col-sm-12">
+                                  <section class="panel b-a animated fadeInUp" style="border: none;" id="rating_thursday_poultry">
+                                    <div class="panel-heading no-border bg-black lter">
+                                      <span class="font-bold" style="color: #FFFFFF ">Lemon Thyme Chicken</span>
+                                    </div>
+                                    <div class="panel-body no-border">
+                                      Feedback for this item
+                                      <section class="scrollable bg-light lter">
+                                        <textarea rows="3" class="form-control scrollable"></textarea>
+                                        <input type="hidden" name="menu_id" id="menu_id" value="1618" />
+                                      </section>
+                                    </div>
+                                    <div class="clearfix panel-footer no-border">
+                                      <div class="star_rating pull-left"></div>
+                                      <div class="submit_meal_rating pull-right btn btn-default disabled" id="submit_rating_thursday_poultry">Submit rating</div>
+                                    </div>
+                                  </section>
+                                </div>                              
+                              </div>
+                              <div class="row m-t-md padder menu_card animated fade_right" data-menu-id="1619">
+                                <div class="col-sm-12">
+                                  <section class="panel b-a animated fadeInUp" style="border: none;" id="rating_thursday_green_1">
+                                    <div class="panel-heading no-border bg-success lter">
+                                      <span class="font-bold" style="color: #FFFFFF ">Hoisin Tofu, Rice Noodles, Stirfry Veg</span>
+                                    </div>
+                                    <div class="panel-body no-border">
+                                      Feedback for this item
+                                      <section class="scrollable bg-light lter">
+                                        <textarea rows="3" class="form-control scrollable"></textarea>
+                                        <input type="hidden" name="menu_id" id="menu_id" value="1619" />
+                                      </section>
+                                    </div>
+                                    <div class="clearfix panel-footer no-border">
+                                      <div class="star_rating pull-left"></div>
+                                      <div class="submit_meal_rating pull-right btn btn-default disabled" id="submit_rating_thursday_green_1">Submit rating</div>
+                                    </div>
+                                  </section>
+                                </div>                              
+                              </div>
+                              <div class="row m-t-md padder menu_card animated fade_right" data-menu-id="1620">
+                                <div class="col-sm-12">
+                                  <section class="panel b-a animated fadeInUp" style="border: none;" id="rating_thursday_green_2">
+                                    <div class="panel-heading no-border bg-success lter">
+                                      <span class="font-bold" style="color: #FFFFFF ">Tomato and Asparagus Carbonara</span>
+                                    </div>
+                                    <div class="panel-body no-border">
+                                      Feedback for this item
+                                      <section class="scrollable bg-light lter">
+                                        <textarea rows="3" class="form-control scrollable"></textarea>
+                                        <input type="hidden" name="menu_id" id="menu_id" value="1620" />
+
+                                      </section>
+                                    </div>
+                                    <div class="clearfix panel-footer no-border">
+                                      <div class="star_rating pull-left"></div>
+                                      <div class="submit_meal_rating pull-right btn btn-default disabled" id="submit_rating_thursday_green_2">Submit rating</div>
+                                    </div>
+                                  </section>
+                                </div>                              
+                              </div>                              
+                            </div>
+                          </div>
+                        </section>
+                      </section>                      
+                    </section>  
+      
+
+                </section>
+            </section>
+        
+        </section>
+    </section>
+</section>
+
+<!-- Pause modal -->
+<div class="modal fade" id="pauseModal" tabindex="-1" role="dialog" aria-labelledby="pauseModal" aria-hidden="true" style="z-index: 10000;">
+  <div class="modal-dialog">
+    <form role="form" action="/customers/update/pause" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="sOS5Dz0JrLQvrWEYbySRSezcId97wLSk6xB3gwTmOtqWXY4fPj0UAdx0PVlACwHMlq9nByavg7/v9yBowYlvjg==" />
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Set your <b>resume date</b> - your subscription will be paused <b>until</b> this date</h4>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="pause_date_picker">Select a resume date</label>
+            <input type="text" name="pause_date_picker" id="pause_date_picker" class="input-sm input-s form-control datepicker-input readonly" size="16" data-date-format="yyyy-mm-dd" />
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <input type="submit" name="commit" value="Pause Subscription" class="btn btn-primary" />
+        </div>
+      </div>
+</form>  </div>
+</div>
+
+<!-- Cancel modal -->
+<div class="modal fade" id="cancelModal" tabindex="-1" role="dialog" aria-labelledby="cancelModal" aria-hidden="true" style="z-index: 10000;">
+  <div class="modal-dialog">
+      <div class="modal-content">
+        <form id="cancel_form" action="/customers/update/cancel" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="SB/HI05EgwV6wPLqEZIe0DU4t6OGVtguN992PbJtBrZupvAzTXA7sIkZrqs+vY5VT0vxe9s57zUzOCHWdwJT4g==" />
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Can you let us know the reason for cancellation?</h4>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="cancel_reason">Reason for cancellation</label>
+              <select name="cancel_reason" id="cancel_reason" class="chosen-select" data-placeholder="Choose one"><option value=""></option><option value="Pick up location is inconvenient">Pick up location is inconvenient</option>
+<option value="Taking a break">Taking a break</option>
+<option value="Portions are too small">Portions are too small</option>
+<option value="Schedule too unpredictable/busy">Schedule too unpredictable/busy</option>
+<option value="Not enough meal variation">Not enough meal variation</option>
+<option value="Move/travel">Move/travel</option>
+<option value="Other (Indicate in notes below)">Other (Indicate in notes below)</option>
+<option value="Do not like the taste of the food">Do not like the taste of the food</option></select>
+              <script>
+                $(".chosen-select").chosen({
+                  width: "75%",
+                  disable_search: true
+                }).off("change").on("change",function(){
+                  $("#cancel_form input[type=submit]").removeClass("disabled");
+                })
+              </script>
+            </div>
+            <div class="form-group">
+              <label for="feedback">Other comments</label>
+              <textarea name="feedback" id="feedback" class="input-sm input-s form-control" rows="6" placeholder="Type your comments">
+</textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <input type="submit" name="commit" value="Confirm cancellation" class="btn btn-primary disabled" />
+          </div>
+</form>      </div>
+  </div>
+</div>
+
+<!-- Feedback modal -->
+<div class="modal fade" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="cancelModal" aria-hidden="true" style="z-index: 10000;">
+  <div class="modal-dialog">
+      <div class="modal-content">
+        <form action="/customers/update/feedback" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="SkP6KgPPkuWjwoPuthOEtKr+44i2Du+PcpVI+0cqYcps+s06APsqUFAb36+ZPBQx0I2lUOth2JR2ch8QgkU0ng==" />
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Feedback</h4>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="feedback">Submit feedback to help improve Chowdy</label>
+              <textarea name="feedback" id="feedback" class="input-sm input-s form-control" rows="6" placeholder="Type your comments">
+</textarea>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <input type="submit" name="commit" value="Submit feedback" class="btn btn-primary" />
+          </div>
+</form>      </div>
+  </div>
+</div>
+
+<!-- General modal -->
+<div class="modal fade" id="generalModal" tabindex="-1" role="dialog" aria-labelledby="cancelModal" aria-hidden="true" style="z-index: 10000;">
+  <div class="modal-dialog">
+      <div class="modal-content">
+      </div>
+  </div>
+</div>
+
+
+<!-- Error modal -->
+<div class="modal fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="errorModal" aria-hidden="true" style="z-index: 10000;">
+  <div class="modal-dialog">
+      <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Error</h4>
+          </div>
+          <div class="modal-body">
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

@@ -37,6 +37,10 @@ class UsersController < ApplicationController
 
   def subscription
     @menu_id = 1
+    @user = current_user
+    @subscription = Payola::Subscription.find_by!(owner_id: current_user.id)
+    flash[:notice] = 'You can restart your subscription by clicking the <b>Resume Subscription</b> button 
+                      in the Manage Subscription</a> tab.'
   end
 
   def promo

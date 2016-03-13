@@ -1,1 +1,150 @@
-<h1> Subscription </h1>
+<section class="scrollable padder bg-light">
+	<section class="m-t-md">
+		<div class="col-sm-12">
+			<h5 class="m-b-xs text-muted text-left">
+        Subscription Details (you can increase it to up to 34 meals yourself. Please email us if you'd like more)
+      </h5>
+		</div>
+	</section>
+	<section>
+		<div class="col-sm-12">
+			<div class="panel">
+				<div class="row m-n text-center">
+				  <div class="col-md-6 b-b">
+				      <section class="row m-b-md">
+				        <div class="col-md-12 text-center text-muted m-t-n-md container">
+				          <div class="row">
+			              <span class="h2 block" id="disp_reg">6</span>
+			              <small class="text-muted text-u-c">Total meals</small>
+				          </div>
+				          <div class="row row-centered">
+				            <div class="col-md-6 col-centered" style="float:none; margin-top: -50px;">
+				              <div class="input-group bootstrap-touchspin"><span class="input-group-btn"><button class="btn btn-default bootstrap-touchspin-down" type="button">-</button></span><span class="input-group-addon bootstrap-touchspin-prefix" style="display: none;"></span><input type="text" id="total_meals_spinner" value="6" style="opacity: 0; display: block;" class="form-control"><span class="input-group-addon bootstrap-touchspin-postfix" style="display: none;"></span><span class="input-group-btn"><button class="btn btn-default bootstrap-touchspin-up" type="button">+</button></span></div>
+				            </div>
+				          </div>
+				        </div>  
+				      </section>
+				  </div>
+				  <div class="col-md-6 b-b">
+				    <section class="row m-b-md">
+				      <div class="col-md-12 text-center text-success-lt m-t-n-md container">
+				        <div class="row">
+				            <span class="h2 block" id="disp_grn">3</span>
+				            <small class="text-muted text-u-c">Green meals</small>
+				        </div>
+				        <div class="row row-centered">
+				          <div class="col-md-6 6 col-centered" style="float:none; margin-top: -50px;">
+				            <div class="input-group bootstrap-touchspin"><span class="input-group-btn"><button class="btn btn-default bootstrap-touchspin-down" type="button">-</button></span><span class="input-group-addon bootstrap-touchspin-prefix" style="display: none;"></span><input type="text" id="green_meals_spinner" value="3" style="opacity: 0; display: block;" class="form-control"><span class="input-group-addon bootstrap-touchspin-postfix" style="display: none;"></span><span class="input-group-btn"><button class="btn btn-default bootstrap-touchspin-up" type="button">+</button></span></div>
+				          </div>
+				        </div>
+				      </div>  
+				    </section>
+				  </div>
+				</div>
+				<%= form_for(@user, :as => :user, :url => update_email_path(@user), :html => { :method => :put, :role => 'form'}) do |f| %>
+	    		<div class="row padder m-t-sm">
+	    			<div class="col-sm-8">
+	    				<div class="row">
+							  <div class="col-sm-4">
+							    <div class="checkbox i-checks">
+							    <label for="no_pork">
+							    <input type="checkbox" name="no_pork" id="no_pork">
+							    <i></i>
+							    No Pork
+							    </label>                                                        </div>
+							  </div>  
+							  <div class="col-sm-4">
+							    <div class="checkbox i-checks">
+							    <label for="no_beef">
+							    <input type="checkbox" name="no_beef" id="no_beef">
+							    <i></i>
+							    No Beef
+							    </label>                                                        </div>
+							  </div>  
+							  <div class="col-sm-4">
+							    <div class="checkbox i-checks">
+							    <label for="no_poultry">
+							    <input type="checkbox" name="no_poultry" id="no_poultry">
+							    <i></i>
+							    No Poultry
+							    </label>                                                        </div>
+							    </div>  
+							</div>
+	    			</div>
+	      	</div>
+	      	<div class="row">
+	      		<div class="col-sm-12">
+	      			<div class="alert" style="margin-bottom:0 !important;">
+							  For non-delivery customers, please double check your meals at the hub to ensure that you received the correct meals. If not, simply ask the staff to change the meals for you.
+							</div>
+	      		</div>
+	      	</div>
+	      	<div class="row padder">
+	      		<div class="col-sm-2 padder-v">
+	      			<input type="hidden" name="monday_reg_hidden" id="monday_reg_hidden" value="4">
+						  <input type="hidden" name="monday_grn_hidden" id="monday_grn_hidden" value="-1">
+						  <input type="hidden" name="thursday_reg_hidden" id="thursday_reg_hidden" value="2">
+						  <input type="hidden" name="thursday_grn_hidden" id="thursday_grn_hidden" value="1">
+						  <input type="submit" name="commit" value="Update Subscription" class="btn btn-s-md btn-success" disabled>  
+	      		</div>
+	      	</div>
+	      <% end %>
+			</div>
+		</div>
+	</section>
+	<section class="m-b-xs">
+		<div class="col-sm-12">
+			<h5 class="m-b-xs text-muted text-left">
+				Change Pick-up Hub
+			</h5>
+		</div>
+	</section>
+	<section>
+		<div class="col-sm-12">
+			<div class="panel b-a padder text-left padder-v">
+				<%= form_for(@user, :as => :user, :url => update_email_path(@user), :html => { :method => :put, :role => 'form'}) do |f| %>
+					<div class="form-group">
+						<select name="post[person_id]">
+						  <option value="">Select Person</option>
+						  <option value="1">David</option>
+						  <option value="2">Sam</option>
+						  <option value="3">Tobias</option>
+						</select>
+					</div>
+					<div class="row m-b-n-md">
+						<div class="col-sm-2 padder-v">
+	  					<input type="submit" name="commit" value="Update Hub" class="btn btn-s-md btn-success">
+						</div>
+					</div>
+				<% end %>
+			</div>
+		</div>
+	</section>
+	<section class="row m-b-xs">
+	  <div class="col-sm-12">
+	    <h5 class="m-b-xs text-muted text-left">
+	      Put Subscription on Hold (deadline to cancel or pause is the Thursday of every week)
+	    </h5>
+	  </div>
+	</section>
+
+	<section class="row">
+<div class="col-sm-12">
+<div class="panel b-a padder text-left">
+<div class="row">
+  <div class="col-sm-2 m-b-md m-t-md">
+    <form action="/customers/update/restart" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="c78ve4XYp12rk9kd/CRV3veXm6A0zIIhvCUNon+G2nWQl2DAF3YwfdkbEdURmmFDxcmm9b1oMUPn6jJjn2F6nw==">
+        <input type="submit" name="commit" value="Resume Subscription" class="btn btn-s-md btn-success" id="resume_subscription_button">
+</form>                                                </div>
+  <div class="col-sm-6 m-b-md m-t-md hidden" id="subscription_change_alert" style="margin-bottom:0 !important; font-size: 18px;">
+    <div class="alert alert-warning text-center" style="padding-top:8px; padding-bottom:8px; font-size: 18px;">
+      
+      You have unpaid invoices. Please <a href="#settings" data-toggle="tab" class="url_seg"> update your credit card</a> before resuming.
+    </div>
+  </div>
+</div>  
+</div>
+</div>
+</section>
+
+</section>
